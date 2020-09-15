@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://bootswatch.com/4/materia/bootstrap.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/523eb5d0fc.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Church Giveaway Registration</title>
+  </head>
+  <body>
+    <div class="container">
+        <section class="row mt-5 text-center">
+          <div class="col-md-6 m-auto">
+            <h1><i class="fas fa-church fa-2x"></i></h1>
+            <h1 class="display-6">True Light Baptist Church <br> Produce Giveaway Registration </h1>
+            <p class="lead">
+                Contact information <strong> will not</strong> be shared with any outside entity and is only for the purposes of notifying
+                you of the event that changes are made to the Produce Giveaway.
+            </p>
+            <form action="/signup" method="POST">
+              <div class="form-group">
+                <input type="text" name="firstName" id="first-name" class="form-control" placeholder="First Name"
+                  required />
+              </div>
+              <div class="form-group">
+                <input type="text" name="lastName" id="last-name" class="form-control" placeholder="Last Name" required />
+              </div>
+              <div class="form-group">
+                <input type="email" name="email" id="email" class="form-control" placeholder="Email" required />
+              </div>
+              <div class="form-group">
+                <input type="text" name="phoneNumber" id="phone-number" class="form-control" placeholder="Phone Number (XXX)-XXX_XXXX" required />
+              </div>
+                <button type="submit" class="btn btn-primary btn-block">
+                Register
+              </button>
+            </form>
+          </div>
+        </section>
+      </div>
+</html>
